@@ -1,4 +1,4 @@
-package eu.telepski.test.hazelcast.wildfly10.bootstrap;
+package eu.telepski.test.hazelcast.wildfly10.bootstrap.cache;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
