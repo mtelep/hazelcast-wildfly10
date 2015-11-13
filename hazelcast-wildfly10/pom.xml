@@ -40,6 +40,9 @@
 				<groupId>org.wildfly.swarm</groupId>
 				<artifactId>wildfly-swarm-plugin</artifactId>
 				<version>${version.wildfly-swarm}</version>
+				<configuration>
+					<mainClass>eu.telepski.test.hazelcast.wildfly10.bootstrap.container.ContainerBootstrap</mainClass>
+				</configuration>
 				<executions>
 					<execution>
 						<goals>
